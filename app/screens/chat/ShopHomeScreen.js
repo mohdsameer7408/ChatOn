@@ -72,6 +72,8 @@ const ShopHomeScreen = ({ navigation }) => {
         onPress={() => navigation.navigate("AboutScreen")}
       />
       <Button title="Test" onPress={() => navigation.navigate("TestScreen")} />
+      <Button title="Test" onPress={() => navigation.navigate("TestScreen")} />
+
       <ShoppableBottomTab />
       <ShopLoadingSpinner isVisible={isModalVisible} />
     </View>
