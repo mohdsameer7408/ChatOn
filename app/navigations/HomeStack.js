@@ -71,7 +71,10 @@ const HomeStack = ({ navigation }) => {
       <Stack.Screen
         name="AboutScreen"
         component={AboutScreen}
-        options={{ headerTitle: "About" }}
+        options={{
+          headerTitle: "",
+          headerStyle: { backgroundColor: "#000" },
+        }}
       />
       <Stack.Screen name="TestScreen" component={TestScreen} />
     </Stack.Navigator>
